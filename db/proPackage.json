@@ -1,0 +1,31 @@
+{
+  "name": "node_youtube",                         // имя проекта - по сути ты можешь даже создать новый пакет для npm
+  "version": "1.0.0",                             // версия проекта
+  "description": "ggg",                           // описание - О проекте
+  "main": "index.js",                             // точка входа entrypoint проекта
+  "scripts": {                                    // скрипты проекта
+    "start": "node index.js",                     // какую команду автоматически запустить в консоли при продакшене
+    "dev": "nodemon index.js"                     // какую команду автоматически запустить в консоли в режиме разработки
+  },
+  "repository": {                                   // про репозиторий проекта
+    "type": "git",
+    "url": "git+https://github.com/alisaMedved/node_youtube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisaMedved/node_youtube/issues"
+  },
+  "homepage": "https://github.com/alisaMedved/node_youtube#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"                                 // библиотека для цвета текста - балавство для демонстрации
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"                               // дабы не перезапускать во время разработки на любое изменение и чих ручками сервер
+  }
+}
+
+
+// как запускать скрипты?
+// npm run <имя скрипта>
+
