@@ -1,0 +1,26 @@
+{
+  "name": "node_youtube",
+  "version": "1.0.0",
+  "description": "ggg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisaMedved/node_youtube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisaMedved/node_youtube/issues"
+  },
+  "homepage": "https://github.com/alisaMedved/node_youtube#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
